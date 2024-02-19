@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "TortyrSpel(SlutProject)/1.0.0": {
+        "runtime": {
+          "TortyrSpel(SlutProject).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TortyrSpel(SlutProject)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

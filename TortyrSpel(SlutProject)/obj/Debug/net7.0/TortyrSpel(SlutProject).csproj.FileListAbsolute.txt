@@ -1,0 +1,14 @@
+C:\Users\axel.grufman\Documents\Vanlig programering\TortyrSpel(SlutProject)\TortyrSpel(SlutProject)\bin\Debug\net7.0\TortyrSpel(SlutProject).exe
+C:\Users\axel.grufman\Documents\Vanlig programering\TortyrSpel(SlutProject)\TortyrSpel(SlutProject)\bin\Debug\net7.0\TortyrSpel(SlutProject).deps.json
+C:\Users\axel.grufman\Documents\Vanlig programering\TortyrSpel(SlutProject)\TortyrSpel(SlutProject)\bin\Debug\net7.0\TortyrSpel(SlutProject).runtimeconfig.json
+C:\Users\axel.grufman\Documents\Vanlig programering\TortyrSpel(SlutProject)\TortyrSpel(SlutProject)\bin\Debug\net7.0\TortyrSpel(SlutProject).dll
+C:\Users\axel.grufman\Documents\Vanlig programering\TortyrSpel(SlutProject)\TortyrSpel(SlutProject)\bin\Debug\net7.0\TortyrSpel(SlutProject).pdb
+C:\Users\axel.grufman\Documents\Vanlig programering\TortyrSpel(SlutProject)\TortyrSpel(SlutProject)\obj\Debug\net7.0\TortyrSpel(SlutProject).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\axel.grufman\Documents\Vanlig programering\TortyrSpel(SlutProject)\TortyrSpel(SlutProject)\obj\Debug\net7.0\TortyrSpel(SlutProject).AssemblyInfoInputs.cache
+C:\Users\axel.grufman\Documents\Vanlig programering\TortyrSpel(SlutProject)\TortyrSpel(SlutProject)\obj\Debug\net7.0\TortyrSpel(SlutProject).AssemblyInfo.cs
+C:\Users\axel.grufman\Documents\Vanlig programering\TortyrSpel(SlutProject)\TortyrSpel(SlutProject)\obj\Debug\net7.0\TortyrSpel(SlutProject).csproj.CoreCompileInputs.cache
+C:\Users\axel.grufman\Documents\Vanlig programering\TortyrSpel(SlutProject)\TortyrSpel(SlutProject)\obj\Debug\net7.0\TortyrSpel(SlutProject).dll
+C:\Users\axel.grufman\Documents\Vanlig programering\TortyrSpel(SlutProject)\TortyrSpel(SlutProject)\obj\Debug\net7.0\refint\TortyrSpel(SlutProject).dll
+C:\Users\axel.grufman\Documents\Vanlig programering\TortyrSpel(SlutProject)\TortyrSpel(SlutProject)\obj\Debug\net7.0\TortyrSpel(SlutProject).pdb
+C:\Users\axel.grufman\Documents\Vanlig programering\TortyrSpel(SlutProject)\TortyrSpel(SlutProject)\obj\Debug\net7.0\TortyrSpel(SlutProject).genruntimeconfig.cache
+C:\Users\axel.grufman\Documents\Vanlig programering\TortyrSpel(SlutProject)\TortyrSpel(SlutProject)\obj\Debug\net7.0\ref\TortyrSpel(SlutProject).dll
