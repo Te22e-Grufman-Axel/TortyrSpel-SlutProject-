@@ -10,47 +10,69 @@ public class Maze
     public static void Main(string[] args)
     {
         GenerateMaze();
-        DrawMaze();
+
 
         while (true)
         {
             int newX = playerX;
             int newY = playerY;
+            Console.Clear();
+            DrawMaze();
+            if (maze[playerY - 1, playerX] != '#')
+            {
+                Console.WriteLine("You hava a door infront of you");
+            }
+            if (maze[playerY + 1, playerX] != '#')
+            {
+                Console.WriteLine("You hava a door behind you");
+            }
+            if (maze[playerY, playerX + 1] != '#')
+            {
+                Console.WriteLine("You hava a door to the left");
+            }
+            if (maze[playerY, playerX + 1] != '#')
+            {
+                Console.WriteLine("You hava a door to the right");
+            }
 
             if (maze[playerY - 1, playerX] != '#')
             {
                 Console.WriteLine("Write 'W' to go upp");
             }
-            else if (maze[playerY - 1, playerX] != '#')
+            if (maze[playerY + 1, playerX] != '#')
             {
                 Console.WriteLine("Write 's' to go down");
             }
-            else if (maze[playerY - 1, playerX] != '#')
+            if (maze[playerY, playerX - 1] != '#')
             {
                 Console.WriteLine("Write 'A' to go left");
             }
-            else if (maze[playerY - 1, playerX] != '#')
+            if (maze[playerY, playerX + 1] != '#')
             {
                 Console.WriteLine("Write 'D' to go right");
             }
             string val = Console.ReadLine();
             val.ToLower();
 
-            if (val == "w")
+            if (val == "w" && maze[playerY - 1, playerX] != '#')
             {
                 newY = playerY - 1;
             }
-            else if (val == "s")
+            else if (val == "s" && maze[playerY + 1, playerX] != '#')
             {
                 newY = playerY + 1;
             }
-            else if (val == "a")
+            else if (val == "a" && maze[playerY, playerX - 1] != '#')
             {
                 newX = playerX - 1;
             }
-            else if (val == "d")
+            else if (val == "d" && maze[playerY, playerX + 1] != '#')
             {
                 newX = playerX + 1;
+            }
+            else
+            {
+                Console.WriteLine("You tried to walk throug a wall");
             }
 
             if (maze[newY, newX] != '#')
@@ -69,6 +91,7 @@ public class Maze
                     break;
                 }
             }
+            Console.ReadKey();
         }
     }
 
@@ -86,7 +109,7 @@ public class Maze
                 {
                     maze[y, x] = '#';
                 }
-                else if (random.Next(100) < 30) // 30% chance to place a wall
+                else if (random.Next(100) < 20) // 30% chance to place a wall
                 {
                     maze[y, x] = '#';
                 }

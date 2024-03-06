@@ -4,6 +4,7 @@
 
 
 Maze.Main(args);
+Console.WriteLine("Ute ur mazen");
 
 // int[,] board = new int[119, 30];
 // for (int y = 0; y < board.GetLength(1); y++)
