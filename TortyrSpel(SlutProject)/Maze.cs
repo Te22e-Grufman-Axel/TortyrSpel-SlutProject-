@@ -1,7 +1,7 @@
 public class Maze
 {
-    static int mazeWidth = 40;
-    static int mazeHeight = 20;
+    static int mazeWidth = 42;
+    static int mazeHeight = 22;
     static char[,] maze;
 
     static int playerX = 1;
@@ -17,7 +17,7 @@ public class Maze
             int newX = playerX;
             int newY = playerY;
             Console.Clear();
-            DrawMaze();
+            // DrawMaze();
             if (maze[playerY - 1, playerX] != '#')
             {
                 Console.WriteLine("You hava a door infront of you");
@@ -26,7 +26,7 @@ public class Maze
             {
                 Console.WriteLine("You hava a door behind you");
             }
-            if (maze[playerY, playerX + 1] != '#')
+            if (maze[playerY, playerX - 1] != '#')
             {
                 Console.WriteLine("You hava a door to the left");
             }
@@ -74,16 +74,12 @@ public class Maze
             {
                 Console.WriteLine("You tried to walk throug a wall");
             }
-
             if (maze[newY, newX] != '#')
             {
-                Console.SetCursorPosition(playerX, playerY);
-                Console.Write(' ');
+                maze[playerY, playerX] = ' ';
                 playerX = newX;
                 playerY = newY;
-                Console.SetCursorPosition(playerX, playerY);
-                Console.Write('@');
-
+                maze[playerY, playerX] = '@';
                 if (playerX == mazeWidth - 2 && playerY == mazeHeight - 2)
                 {
                     Console.Clear();
@@ -109,7 +105,7 @@ public class Maze
                 {
                     maze[y, x] = '#';
                 }
-                else if (random.Next(100) < 20) // 30% chance to place a wall
+                else if (random.Next(100) < 30) // 30% chance to place a wall
                 {
                     maze[y, x] = '#';
                 }

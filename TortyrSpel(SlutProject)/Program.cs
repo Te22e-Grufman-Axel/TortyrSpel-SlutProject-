@@ -1,33 +1,74 @@
-﻿using System.Security.Cryptography.X509Certificates;
+﻿using System.Net.WebSockets;
+using System.Security.Cryptography.X509Certificates;
+
+int Nuveranderum = 0;
+
+
+while (true)
+{
+    if (Nuveranderum == 0)
+    {
+        Console.Clear();
+       Nuveranderum = Rum0568.Rum0(Nuveranderum);
+    }
+    else if (Nuveranderum == 1)
+    {
+
+    }
+    else if (Nuveranderum == 2)
+    {
+
+    }
+    else if (Nuveranderum == 3)
+    {
+
+    }
+    else if (Nuveranderum == 4)
+    {
+
+    }
+    else if (Nuveranderum == 5)
+    {
+        Console.Clear();
+        (Nuveranderum, args) = Rum0568.Rum5(Nuveranderum, args);
+    }
+    else if (Nuveranderum == 6)
+    {
+        Console.Clear();
+        Rum0568.Rum6();
+    }
+    else if (Nuveranderum == 7)
+    {
+
+    }
+    else if (Nuveranderum == 8)
+    {
+        Console.Clear();
+        Rum0568.Rum8();
+    }
+    else if (Nuveranderum == 9)
+    {
+
+    }
+    else if (Nuveranderum == 10)
+    {
+
+    }
+    else
+    {
+        Console.Clear();
+        Console.WriteLine("WTF Har Du gjort");
+        Console.WriteLine("Kontakta axel för att fixa");
+        Console.ReadLine();
+    }
+
+}
 
 
 
 
-Maze.Main(args);
-Console.WriteLine("Ute ur mazen");
-
-// int[,] board = new int[119, 30];
-// for (int y = 0; y < board.GetLength(1); y++)
-// {
-//   for (int x = 0; x < board.GetLength(0); x++)
-//   {
-//     board[x, y] = 0;
-
-//     if (x == 60 && y == 15)
-//     {
-//       board[x, y] = 1; 
-//     }
-//   }
-// }
-// for (int y = 0; y < board.GetLength(1); y++)
-// {
-//   for (int x = 0; x < board.GetLength(0); x++)
-//   {
-//     Console.Write(board[x, y]); // Ritar ut den nuvarande rutan
-//   }
-//   Console.WriteLine(); // Lägger till en radbrytning i slutet på varje utritad rad.
-// }
 
 
 
+Console.WriteLine("Du är i slutet");
 Console.ReadLine();
