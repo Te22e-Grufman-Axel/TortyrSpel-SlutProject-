@@ -1,7 +1,14 @@
 ﻿using System.Net.WebSockets;
 using System.Security.Cryptography.X509Certificates;
+using System.IO;
 
-int Nuveranderum = 0;
+int Nuveranderum = 6;
+
+string[] contents = File.ReadAllLines(@"localfile.txt");
+Console.WriteLine(contents[0]);
+Console.ReadLine();
+
+
 
 
 while (true)
@@ -30,12 +37,12 @@ while (true)
     else if (Nuveranderum == 5)
     {
         Console.Clear();
-        (Nuveranderum, args) = Rum0568.Rum5(Nuveranderum, args);
+        (Nuveranderum) = Rum0568.Rum5(Nuveranderum);
     }
     else if (Nuveranderum == 6)
     {
         Console.Clear();
-        Rum0568.Rum6();
+        Nuveranderum = Rum0568.Rum6(Nuveranderum);
     }
     else if (Nuveranderum == 7)
     {
@@ -44,7 +51,7 @@ while (true)
     else if (Nuveranderum == 8)
     {
         Console.Clear();
-        Rum0568.Rum8();
+       Nuveranderum = Rum0568.Rum8(Nuveranderum);
     }
     else if (Nuveranderum == 9)
     {

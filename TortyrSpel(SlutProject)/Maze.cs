@@ -7,10 +7,12 @@ public class Maze
     static int playerX = 1;
     static int playerY = 1;
 
-    public static void Main(string[] args)
+static int TimesPlayed = 0;
+
+    public static void Main()
     {
         GenerateMaze();
-
+TimesPlayed ++;
 
         while (true)
         {
@@ -88,6 +90,10 @@ public class Maze
                 }
             }
             Console.ReadKey();
+            if(TimesPlayed > 0)
+            {
+                
+            }
         }
     }
 

@@ -1,8 +1,10 @@
+using System.Data.SqlTypes;
+
 public class Rum0568
 {
     public static int Rum0(int Nuveranderum)
     {
-        Console.WriteLine("Welcome to my maze");
+        Console.WriteLine("Welcome to my game");
         Console.WriteLine("My name is Maledictus BoB Grim");
         Console.WriteLine("What may your name be?");
         Console.WriteLine("Eeh, Dosent matter, you will probobly soon be dead anyways");
@@ -16,7 +18,7 @@ public class Rum0568
         Nuveranderum = 5;
         return Nuveranderum;
     }
-    public static Rum5(int Nuveranderum, string[] args)
+    public static int Rum5(int Nuveranderum)
     {
         Console.WriteLine("A hole opens beneath you and you fall down");
         Console.WriteLine("As you fall, you see that it's a labyrinth below you");
@@ -29,21 +31,51 @@ public class Rum0568
         Console.WriteLine("Escape from this labyrinth and you're one step closer to your freedom");
 
         Console.ReadKey();
-        Maze.Main(args);
+        Maze.Main();
 
         Nuveranderum = 6;
         return Nuveranderum;
     }
-    public static void Rum6()
+    public static int Rum6(int Nuveranderum)
     {
-        Console.WriteLine("Rum 6");
+        Console.WriteLine("Right as you get out of the mase you see a parcour course infront of you");
+        Console.WriteLine("As you hear over the speaker");
+        Console.WriteLine("You did good testsubject 0762-34656-5");
+        Console.WriteLine("Not alot of peopel come this far");
+        Console.WriteLine("Lets see if your parcour skills are as good as your problem solving skills");
+        Console.WriteLine("As you think to yourself, This guy is a jerk");
+        Console.WriteLine("Lets see what i can do here");
 
+        Random random = new Random();
+
+        if(random.Next(100) < 30)
+        {
+            Death.ByParcour();
+        }
+        else
+        {
+            Console.WriteLine("you do your best and manage to get across");
+            Console.WriteLine("When you are on the other side you hear over the speaker");
+            Console.WriteLine("Good job TestSubject 0762-34656-5");
+            Console.WriteLine("You made it");
+            Console.WriteLine("Plese walk throue the door infront of you to procced");
+            
+        }
         Console.ReadLine();
+        Nuveranderum = 7;
+        return Nuveranderum;
     }
-    public static void Rum8()
+    public static int Rum8(int Nuveranderum)
     {
-        Console.WriteLine("Rum 8");
+        Console.WriteLine("When you walk throue the door you see what looks like another maze on the other side");
+        Console.WriteLine("You take a deep breath and think, do i really have to do another maze");
+        Console.WriteLine("As you enter the maze a voice comes over the loduspeaker");
+        Console.WriteLine("Welcome to  your second mase, This one is harder then the last");
+        Console.WriteLine("But one thing you should know is that i left my pet in there");
+        Console.WriteLine("Oops, lets just hope you dont run into him");
 
-        Console.ReadLine();
+        Console.ReadKey();
+        Maze.Main();
+        return Nuveranderum;
     }
 }
