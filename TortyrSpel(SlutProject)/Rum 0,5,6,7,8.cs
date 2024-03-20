@@ -74,9 +74,9 @@ public class Rum05678
             string[] Questions = File.ReadAllLines(@"Questions.txt");
             string[] Answers = File.ReadAllLines(@"Answers.txt");
             string playerAnswer = "";
-            Console.WriteLine(QuestionsNumber);
+            // Console.WriteLine(QuestionsNumber);
             Console.WriteLine(Questions[QuestionsNumber]);
-            Console.WriteLine(Answers[QuestionsNumber]);
+            // Console.WriteLine(Answers[QuestionsNumber]);
             playerAnswer = Console.ReadLine().ToLower(); ;
 
             if (playerAnswer != Answers[QuestionsNumber].ToLower())

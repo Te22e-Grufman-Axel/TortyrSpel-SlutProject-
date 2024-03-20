@@ -28,7 +28,7 @@ What is the smallest prime number?
 What is the square of 5?
 What is the capital of Australia?
 What is the chemical symbol for carbon dioxide?
-What is the speed of light in a vacuum?
+What is the speed of light in a vacuum in m/s?
 What is the chemical formula for table salt?
 Who is known as the father of modern physics?
 How many days are there in a fortnight?
@@ -51,7 +51,7 @@ What is the largest organ in the human body?
 What is the chemical symbol for silver?
 What is the opposite of "big"?
 What is the chemical formula for glucose?
-What is the speed of sound in air at sea level?
+What is the speed of sound in air at sea level in m/s?
 How many planets are there in our solar system?
 What is the chemical symbol for potassium?
 What is the main ingredient in sushi?

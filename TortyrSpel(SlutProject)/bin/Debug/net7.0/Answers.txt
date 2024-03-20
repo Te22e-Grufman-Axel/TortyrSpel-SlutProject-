@@ -1,6 +1,6 @@
 2
 60
-100°C
+100C
 Paris
 H2O
 7
@@ -17,7 +17,7 @@ Giraffe
 Avocado
 8
 Day
-32°F
+32F
 Mandarin Chinese
 Leonardo da Vinci
 O2
@@ -28,7 +28,7 @@ Pacific Ocean
 25
 Canberra
 CO2
-299,792,458 meters per second
+299792458
 NaCl
 Albert Einstein
 14
@@ -42,16 +42,16 @@ Diamond
 H2O
 Alexander Fleming
 11
-212°F
+212F
 Fe
 Nitrogen
-Brasília
+Brasilia
 He
 Skin
 Ag
 Small
 C6H12O6
-Approximately 343 meters per second
+343
 8
 K
 Rice

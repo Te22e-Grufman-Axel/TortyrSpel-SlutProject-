@@ -3,13 +3,13 @@ public class Rum1234
 
     public static int Rum1(int Nuveranderum)
     {
-        
+
         Console.ReadKey();
         Nuveranderum = 2;
         return Nuveranderum;
     }
 
-        public static int Rum2(int Nuveranderum)
+    public static int Rum2(int Nuveranderum)
     {
 
         Console.ReadKey();
@@ -17,13 +17,14 @@ public class Rum1234
         return Nuveranderum;
     }
 
-        public static int Rum3(int Nuveranderum)
+    public static int Rum3(int Nuveranderum)
     {
         List<String> PlayerAnswers = new List<String>();
+        PlayerAnswers.Add("Hej");
+        PlayerAnswers.Add("Hur mår du?");
 
         PlayerAnswers.ToArray();
-    File.WriteAllLines(SvarPerSonTest,PlayerAnswers);
-Console.WriteLine(PlayerAnswers.Count);
+        File.WriteAllLines("SvarPerSonTest.txt", PlayerAnswers);
 
 
 
@@ -32,7 +33,7 @@ Console.WriteLine(PlayerAnswers.Count);
         return Nuveranderum;
     }
 
-        public static int Rum4(int Nuveranderum)
+    public static int Rum4(int Nuveranderum)
     {
 
         Console.ReadKey();
