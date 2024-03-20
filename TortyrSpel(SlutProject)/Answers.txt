@@ -1,0 +1,100 @@
+2
+60
+100C
+Paris
+H2O
+7
+William Shakespeare
+Purple
+3
+Jupiter
+Yen
+Biology
+8
+366
+Au
+Giraffe
+Avocado
+8
+Day
+32F
+Mandarin Chinese
+Leonardo da Vinci
+O2
+Photosynthesis
+4
+Pacific Ocean
+2
+25
+Canberra
+CO2
+299792458
+NaCl
+Albert Einstein
+14
+Na
+Ottawa
+273.15 K
+Antarctica
+10
+N2
+Diamond
+H2O
+Alexander Fleming
+11
+212F
+Fe
+Nitrogen
+Brasilia
+He
+Skin
+Ag
+Small
+C6H12O6
+343
+8
+K
+Rice
+Femur
+Pb
+Slow
+CO
+Harper Lee
+Carbon
+Beijing
+Ca
+Light
+H2SO4
+Neil Armstrong
+Cu
+Cold
+NH3
+Michelangelo
+Ag
+Madrid
+HCl
+Low
+Sn
+George Orwell
+CH4
+Young
+NaCl
+Vincent van Gogh
+New Delhi
+C9H8O4
+Down
+Al
+Jane Austen
+Pretoria
+C12H22O11
+South
+C
+Ludwig van Beethoven
+Rome
+NaCl
+Closed
+U
+Herman Melville
+Buenos Aires
+H2O
+Right

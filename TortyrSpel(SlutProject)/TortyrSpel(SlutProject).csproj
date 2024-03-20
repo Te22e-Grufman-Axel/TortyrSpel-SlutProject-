@@ -5,11 +5,11 @@
     <TargetFramework>net7.0</TargetFramework>
     <RootNamespace>TortyrSpel_SlutProject_</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <!-- <Nullable>enable</Nullable> -->
   </PropertyGroup>
 
     <ItemGroup>
-    <Content Include="localfile.txt" CopyToOutputDirectory="Always"/>
+    <Content Include="*.txt" CopyToOutputDirectory="Always"/>
   </ItemGroup>
 
 </Project>

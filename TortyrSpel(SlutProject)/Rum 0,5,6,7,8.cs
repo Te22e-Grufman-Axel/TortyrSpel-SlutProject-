@@ -1,6 +1,6 @@
 using System.Data.SqlTypes;
 
-public class Rum0568
+public class Rum05678
 {
     public static int Rum0(int Nuveranderum)
     {
@@ -48,7 +48,7 @@ public class Rum0568
 
         Random random = new Random();
 
-        if(random.Next(100) < 30)
+        if (random.Next(100) < 30)
         {
             Death.ByParcour();
         }
@@ -59,10 +59,32 @@ public class Rum0568
             Console.WriteLine("Good job TestSubject 0762-34656-5");
             Console.WriteLine("You made it");
             Console.WriteLine("Plese walk throue the door infront of you to procced");
-            
+
         }
         Console.ReadLine();
         Nuveranderum = 7;
+        return Nuveranderum;
+    }
+    public static int Rum7(int Nuveranderum)
+    {
+        Random random = new Random();
+        for (int i = 0; i < 5; i++)
+        {
+            int QuestionsNumber = random.Next(100);
+            string[] Questions = File.ReadAllLines(@"Questions.txt");
+            string[] Answers = File.ReadAllLines(@"Answers.txt");
+            string playerAnswer = "";
+            Console.WriteLine(QuestionsNumber);
+            Console.WriteLine(Questions[QuestionsNumber]);
+            Console.WriteLine(Answers[QuestionsNumber]);
+            playerAnswer = Console.ReadLine().ToLower(); ;
+
+            if (playerAnswer != Answers[QuestionsNumber].ToLower())
+            {
+                Death.ByQuiz();
+            }
+        }
+        Nuveranderum = 8;
         return Nuveranderum;
     }
     public static int Rum8(int Nuveranderum)

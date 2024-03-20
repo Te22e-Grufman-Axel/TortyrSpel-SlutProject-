@@ -12,4 +12,5 @@ C:\Users\axel.grufman\Documents\Vanlig programering\TortyrSpel(SlutProject)\Tort
 C:\Users\axel.grufman\Documents\Vanlig programering\TortyrSpel(SlutProject)\TortyrSpel(SlutProject)\obj\Debug\net7.0\TortyrSpel(SlutProject).pdb
 C:\Users\axel.grufman\Documents\Vanlig programering\TortyrSpel(SlutProject)\TortyrSpel(SlutProject)\obj\Debug\net7.0\TortyrSpel(SlutProject).genruntimeconfig.cache
 C:\Users\axel.grufman\Documents\Vanlig programering\TortyrSpel(SlutProject)\TortyrSpel(SlutProject)\obj\Debug\net7.0\ref\TortyrSpel(SlutProject).dll
-C:\Users\axel.grufman\Documents\Vanlig programering\TortyrSpel(SlutProject)\TortyrSpel(SlutProject)\bin\Debug\net7.0\localfile.txt
+C:\Users\axel.grufman\Documents\Vanlig programering\TortyrSpel(SlutProject)\TortyrSpel(SlutProject)\bin\Debug\net7.0\Answers.txt
+C:\Users\axel.grufman\Documents\Vanlig programering\TortyrSpel(SlutProject)\TortyrSpel(SlutProject)\bin\Debug\net7.0\Questions.txt

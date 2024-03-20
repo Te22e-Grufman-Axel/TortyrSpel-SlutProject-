@@ -1,18 +1,23 @@
 public class Maze
 {
-    static int mazeWidth = 42;
-    static int mazeHeight = 22;
+    //Jag tog den här koden från någon annan men sen ändrade den en massa
+    static int mazeWidth = 12;
+    static int mazeHeight = 12;
     static char[,] maze;
-
     static int playerX = 1;
     static int playerY = 1;
 
-static int TimesPlayed = 0;
+    static int TimesPlayed = 0;
 
     public static void Main()
     {
+        if (TimesPlayed > 0)
+        {
+            mazeHeight = 22;
+            mazeWidth = 32;
+        }
         GenerateMaze();
-TimesPlayed ++;
+        TimesPlayed++;
 
         while (true)
         {
@@ -90,10 +95,6 @@ TimesPlayed ++;
                 }
             }
             Console.ReadKey();
-            if(TimesPlayed > 0)
-            {
-                
-            }
         }
     }
 
@@ -111,7 +112,7 @@ TimesPlayed ++;
                 {
                     maze[y, x] = '#';
                 }
-                else if (random.Next(100) < 30) // 30% chance to place a wall
+                else if (random.Next(100) < 0) // 30% chance to place a wall
                 {
                     maze[y, x] = '#';
                 }
