@@ -24,10 +24,10 @@ public class Death
         Console.WriteLine("Du dog av quiz");
         Console.ReadLine();
     }
-        public static void ByMazeMonster()
+        public static void ByPersonaletyTest()
     {
         Console.Clear();
-        Console.WriteLine("Du dog av MazeMonster");
+        Console.WriteLine("Du dog av personaletytest");
         Console.ReadLine();
     }
         public static void ByBossBattel()
