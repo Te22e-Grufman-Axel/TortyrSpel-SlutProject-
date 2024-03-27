@@ -15,3 +15,4 @@ C:\Users\axel.grufman\Documents\Vanlig programering\TortyrSpel(SlutProject)\Tort
 C:\Users\axel.grufman\Documents\Vanlig programering\TortyrSpel(SlutProject)\TortyrSpel(SlutProject)\bin\Debug\net7.0\Answers.txt
 C:\Users\axel.grufman\Documents\Vanlig programering\TortyrSpel(SlutProject)\TortyrSpel(SlutProject)\bin\Debug\net7.0\Questions.txt
 C:\Users\axel.grufman\Documents\Vanlig programering\TortyrSpel(SlutProject)\TortyrSpel(SlutProject)\bin\Debug\net7.0\SvarPerSonTest.txt
+C:\Users\axel.grufman\Documents\Vanlig programering\TortyrSpel(SlutProject)\TortyrSpel(SlutProject)\bin\Debug\net7.0\QuestionsPersonTest.txt

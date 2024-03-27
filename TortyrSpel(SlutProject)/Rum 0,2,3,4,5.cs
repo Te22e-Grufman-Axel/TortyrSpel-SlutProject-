@@ -1,6 +1,6 @@
 using System.Data.SqlTypes;
 
-public class Rum05678
+public class Rum02345
 {
     public static int Rum0(int Nuveranderum)
     {
@@ -8,6 +8,7 @@ public class Rum05678
         Console.WriteLine("My name is Maledictus BoB Grim");
         Console.WriteLine("What may your name be?");
         Console.WriteLine("Eeh, Dosent matter, you will probobly soon be dead anyways");
+        Console.WriteLine("you will go by the id nummber '0762-34656-5' from now on");
 
         Console.WriteLine("If you manage to survie my littel game");
         Console.WriteLine("You will be rewarded with fredome");
@@ -15,10 +16,10 @@ public class Rum05678
         Console.WriteLine("Walk throue the door infront of you to start");
 
         Console.ReadKey();
-        Nuveranderum = 5;
+        Nuveranderum = 1;
         return Nuveranderum;
     }
-    public static int Rum5(int Nuveranderum)
+    public static int Rum2(int Nuveranderum)
     {
         Console.WriteLine("A hole opens beneath you and you fall down");
         Console.WriteLine("As you fall, you see that it's a labyrinth below you");
@@ -33,10 +34,10 @@ public class Rum05678
         Console.ReadKey();
         Maze.Main();
 
-        Nuveranderum = 6;
+        Nuveranderum = 3;
         return Nuveranderum;
     }
-    public static int Rum6(int Nuveranderum)
+    public static int Rum3(int Nuveranderum)
     {
         Console.WriteLine("Right as you get out of the mase you see a parcour course infront of you");
         Console.WriteLine("As you hear over the speaker");
@@ -62,10 +63,10 @@ public class Rum05678
 
         }
         Console.ReadLine();
-        Nuveranderum = 7;
+        Nuveranderum = 4;
         return Nuveranderum;
     }
-    public static int Rum7(int Nuveranderum)
+    public static int Rum4(int Nuveranderum)
     {
         Random random = new Random();
         for (int i = 0; i < 5; i++)
@@ -74,9 +75,7 @@ public class Rum05678
             string[] Questions = File.ReadAllLines(@"Questions.txt");
             string[] Answers = File.ReadAllLines(@"Answers.txt");
             string playerAnswer = "";
-            // Console.WriteLine(QuestionsNumber);
             Console.WriteLine(Questions[QuestionsNumber]);
-            // Console.WriteLine(Answers[QuestionsNumber]);
             playerAnswer = Console.ReadLine().ToLower(); ;
 
             if (playerAnswer != Answers[QuestionsNumber].ToLower())
@@ -84,10 +83,10 @@ public class Rum05678
                 Death.ByQuiz();
             }
         }
-        Nuveranderum = 8;
+        Nuveranderum = 5;
         return Nuveranderum;
     }
-    public static int Rum8(int Nuveranderum)
+    public static int Rum5(int Nuveranderum)
     {
         Console.WriteLine("When you walk throue the door you see what looks like another maze on the other side");
         Console.WriteLine("You take a deep breath and think, do i really have to do another maze");
@@ -98,6 +97,7 @@ public class Rum05678
 
         Console.ReadKey();
         Maze.Main();
+        Nuveranderum = 6;
         return Nuveranderum;
     }
 }
