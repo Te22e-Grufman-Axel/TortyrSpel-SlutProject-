@@ -48,13 +48,14 @@ public class Rum_1
         Console.WriteLine("Answer all the next questions on a scale of 1-10");
         Console.WriteLine("Where 1 is the lowest and 10 the higest");
         string[] QuestionsPersonTest = File.ReadAllLines(@"QuestionsPersonTest.txt");
-        for (int i = 0; i < QuestionsPersonTest.Length; i++)
+        for (int i = 0; i < QuestionsPersonTest.Length-99; i++)
         {
             int question = i;
             PlayerAnswers = personaletytestMCQ(PlayerAnswers, question);
         }
         string path = @"SvarPerSonTest.txt";
         File.WriteAllLines(path, PlayerAnswers.ToArray());
+        Console.WriteLine("As you answer the last question a trapdoor open beneath you");
         Console.ReadKey();
         Nuveranderum = 2;
         return Nuveranderum;
@@ -72,7 +73,7 @@ public class Rum_1
             if (success == false)
             {
                 Console.WriteLine("That was not a nummber!");
-                Console.ReadKey();
+                Console.WriteLine("Answer again");
             }
             else if(success == true)
             {

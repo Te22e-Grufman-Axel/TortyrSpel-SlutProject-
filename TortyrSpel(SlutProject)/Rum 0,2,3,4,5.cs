@@ -21,7 +21,6 @@ public class Rum02345
     }
     public static int Rum2(int Nuveranderum)
     {
-        Console.WriteLine("A hole opens beneath you and you fall down");
         Console.WriteLine("As you fall, you see that it's a labyrinth below you");
         Console.WriteLine("You hit the ground hard, but manage to stand up");
         Console.WriteLine("Lucky I landed softly you think");

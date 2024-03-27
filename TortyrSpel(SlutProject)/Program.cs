@@ -2,7 +2,7 @@
 using System.Security.Cryptography.X509Certificates;
 using System.IO;
 
-int Nuveranderum = 1;
+int Nuveranderum = 0;
 
 
 
@@ -42,7 +42,7 @@ while (true)
     else if (Nuveranderum == 6)
     {
         Console.Clear();
-        // Nuveranderum = Rum05678.Rum6(Nuveranderum);
+        Nuveranderum = Rum_6.Rum6(Nuveranderum);
     }
     else
     {
