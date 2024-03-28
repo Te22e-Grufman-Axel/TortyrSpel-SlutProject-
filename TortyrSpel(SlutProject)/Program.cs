@@ -48,7 +48,7 @@ while (true)
     {
         Console.Clear();
         Console.WriteLine("WTF Har Du gjort");
-        Console.WriteLine("Kontakta axel för att fixa");
+        Console.WriteLine("Kontakta Axel för att fixa");
         Console.ReadLine();
     }
 

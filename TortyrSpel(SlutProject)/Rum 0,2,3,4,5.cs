@@ -4,13 +4,14 @@ public class Rum02345
 {
     public static int Rum0(int Nuveranderum)
     {
+
         Console.WriteLine("Welcome to my game");
         Console.WriteLine("My name is Maledictus BoB Grim");
         Console.WriteLine("What may your name be?");
-        Console.WriteLine("Eeh, Dosent matter, you will probobly soon be dead anyways");
+        Console.WriteLine("Eeh, Dosen't matter, you will probobly soon be dead anyways");
         Console.WriteLine("you will go by the id nummber '0762-34656-5' from now on");
 
-        Console.WriteLine("If you manage to survie my littel game");
+        Console.WriteLine("If you manage to survie my litle game");
         Console.WriteLine("You will be rewarded with fredome");
         Console.WriteLine("But if you dont, Well lets just hope you do");
         Console.WriteLine("Walk throue the door infront of you to start");
@@ -26,7 +27,7 @@ public class Rum02345
         Console.WriteLine("Lucky I landed softly you think");
         Console.WriteLine("Then you hear from speakers");
         Console.WriteLine("How's it going testSubject 0762-34656-5");
-        Console.WriteLine("So far, you've fought against robots and solved puzzles");
+        Console.WriteLine("So far, all you done is a simpel test");
         Console.WriteLine("Now comes your first real test");
         Console.WriteLine("Escape from this labyrinth and you're one step closer to your freedom");
 
@@ -67,8 +68,11 @@ public class Rum02345
     }
     public static int Rum4(int Nuveranderum)
     {
+        Console.WriteLine("As you enter the next room you see another screen infront of you");
+        Console.WriteLine("You ask yourself why you got to answer more questions");
+        Console.WriteLine("As a questions pops up on the screen and you move to answer it");
         Random random = new Random();
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < 25; i++)
         {
             int QuestionsNumber = random.Next(100);
             string[] Questions = File.ReadAllLines(@"Questions.txt");
